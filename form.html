@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <h1>Travel reservation form</h1><br>
+
+    <h3>*denotes mandotory</h3>
+<body>
+    <section class="detail" id="detail">
+        <label>Full name*</label><br>
+        <input type="text" name="fullName" id="fullName"><br><br>
+        <label>Email address*</label><br>
+        <input type="email" name="email" id="email"><br><br>
+        <label>Select Tour Package* :</label><br>
+        <select id="tour" name="tour">
+          <option value="Goa">Goa</option>
+          <option value="Another Tour">Another Tour</option>
+    </select><br><br>
+    </section>
+
+    <section id="arrivalDate" class="arrivalDate">
+        <label>Arrival date* :</label><br>
+        <input type="date" name="date" id="date"><br><br>
+        <label>Number of persons*:</label><br>
+        <input type="number" name="persons" id="persons"><br><br>
+        <label>What would you want to avail?*</label><br>
+        <label>Boarding</label>
+        <input type="checkbox" name="avail" id="Boarding" value="Avail"><br>
+        <label>Fooding</label>
+        <input type="checkbox" name="fooding" id="fooding" value="Fooding"><br>
+        <label>Sight seeing</label>
+        <input type="checkbox" name="sightseeing" id="sightseeing" value="Sight seeing"><br><br>
+    </section>
+
+        <label>Discount Coupon code</label><br>
+        <input type="text" name="discount"><br><br>
+    
+    <section class = "terms" id="terms">
+        <label>Terms and conditions*</label><br>
+        <input type="radio" name="terms" id="Agree">
+        <label>I agree</label>
+        <input type="radio" name="terms" id="Disagree">
+        <label>I disagree</label><br>
+    </section>
+
+    <section class = "completed" id="completed">
+        <br><button type="button">Complete reservation</button>
+    </section>
+    
+        
+</body>
+</html>
