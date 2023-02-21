@@ -1,5 +1,13 @@
 body {
     text-align: center;
-    background-color: azure;
+    background-color: rgb(18, 124, 206);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#overlay {
+  width: 30%;
+  margin: 3% auto;
+  height: 65vh;
+  background-color: rgba(134, 247, 235, 0.9);
+  border-radius: 40px;
 }
