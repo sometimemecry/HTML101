@@ -1,9 +1,19 @@
+<<<<<<< HEAD
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: #333;
+=======
+head {
+  
+}
+body {
+    text-align: center;
+    background-color: rgb(248, 245, 147);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+>>>>>>> e321df1 (Travel)
 }
 
 h1, h3 {

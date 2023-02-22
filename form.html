@@ -6,82 +6,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <h1>Travel reservation form</h1>
   <br />
 
   <h3>*denotes mandotory</h3>
   <body>
     <section id="overlay">
-    <section class="detail" id="detail">
-      <label>Full name*</label><br />
+      <section class="detail" id="detail">
+        <label>Full name*</label><br />
+        <input
+          type="text"
+          name="fullName"
+          id="fullName"
+          placeholder="Firstname Lastname"
+        /><br /><br />
+        <label>Email address*</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email_Address"
+        /><br /><br />
+        <label>Select Tour Package* :</label><br />
+        <select id="tour" name="tour">
+          <option value="Goa">Goa</option>
+          <option value="Another Tour">Another Tour</option></select
+        ><br /><br />
+      </section>
+
+      <section id="arrivalDate" class="arrivalDate">
+        <label>Arrival date* :</label><br />
+        <input type="date" name="date" id="date" /><br /><br />
+        <label>Number of persons*:</label><br />
+        <input
+          type="number"
+          name="persons"
+          id="persons"
+          placeholder="How many person"
+        /><br /><br />
+        <label>What would you want to avail?*</label><br />
+        <label>Boarding</label>
+        <input type="checkbox" name="avail" id="Boarding" value="Avail" /><br />
+        <label>Fooding</label>
+        <input
+          type="checkbox"
+          name="fooding"
+          id="fooding"
+          value="Fooding"
+        /><br />
+        <label>Sight seeing</label>
+        <input
+          type="checkbox"
+          name="sightseeing"
+          id="sightseeing"
+          value="Sight seeing"
+        /><br /><br />
+      </section>
+
+      <label>Discount Coupon code</label><br />
       <input
         type="text"
-        name="fullName"
-        id="fullName"
-        placeholder="Firstname Lastname"
+        name="discount"
+        placeholder="Input your coupon"
       /><br /><br />
-      <label>Email address*</label><br />
-      <input
-        type="email"
-        name="email"
-        id="email"
-        placeholder="Email_Address"
-      /><br /><br />
-      <label>Select Tour Package* :</label><br />
-      <select id="tour" name="tour">
-        <option value="Goa">Goa</option>
-        <option value="Another Tour">Another Tour</option></select
-      ><br /><br />
-    </section>
 
-    <section id="arrivalDate" class="arrivalDate">
-      <label>Arrival date* :</label><br />
-      <input type="date" name="date" id="date" /><br /><br />
-      <label>Number of persons*:</label><br />
-      <input
-        type="number"
-        name="persons"
-        id="persons"
-        placeholder="How many person"
-      /><br /><br />
-      <label>What would you want to avail?*</label><br />
-      <label>Boarding</label>
-      <input type="checkbox" name="avail" id="Boarding" value="Avail" /><br />
-      <label>Fooding</label>
-      <input
-        type="checkbox"
-        name="fooding"
-        id="fooding"
-        value="Fooding"
-      /><br />
-      <label>Sight seeing</label>
-      <input
-        type="checkbox"
-        name="sightseeing"
-        id="sightseeing"
-        value="Sight seeing"
-      /><br /><br />
-    </section>
+      <section class="terms" id="terms">
+        <label>Terms and conditions*</label><br />
+        <input type="radio" name="terms" id="Agree" />
+        <label>I agree</label>
+        <input type="radio" name="terms" id="Disagree" />
+        <label>I disagree</label><br />
+      </section>
 
-    <label>Discount Coupon code</label><br />
-    <input
-      type="text"
-      name="discount"
-      placeholder="Input your coupon"
-    /><br /><br />
-
-    <section class="terms" id="terms">
-      <label>Terms and conditions*</label><br />
-      <input type="radio" name="terms" id="Agree" />
-      <label>I agree</label>
-      <input type="radio" name="terms" id="Disagree" />
-      <label>I disagree</label><br />
-    </section>
-
-    <section class="completed" id="completed">
-      <br /><button type="button">Complete reservation</button>
-    </section>
+      <section class="completed" id="completed">
+        <br /><button type="button">Complete reservation</button>
+      </section>
     </section>
   </body>
 </html>
